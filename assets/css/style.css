@@ -3,14 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.pai2{
+display: flex;
+}
 .pai{
     text-align: center;
     justify-content: center;
     align-items: center;
     background-color: #fff;
     display: flex;
-    
-   
 }
 h4{
     text-align: center;
@@ -53,6 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 15vh;
+    margin-left: 1vw;
     
 }
 input{
@@ -66,12 +68,15 @@ label{
     color: #1d7044;
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
+    font-size: large;
 }
 h2{
     padding-top: 2vh;
-    font-size: xx-large;
-    margin-left: -4vw;
+    font-size: 45px;
+    margin-left: -4.5vw;
     color: #1d7044;
+    margin-top: 35vh;
+    margin-right: 1vw;
 }
 .h11{
     color: #fff;
@@ -94,3 +99,4 @@ h2{
 .hidd{
     display: none;
 }
+
