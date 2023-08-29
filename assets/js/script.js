@@ -111,12 +111,12 @@ function renderização() {
 
     ray.forEach(pet => {
         content += `
-        <div>
-         <img src="${pet.foto}" alt="${pet.name}">
-         <h1>Nome do Tutor: ${pet.tutor}</h1>
-         <h1>Nome do sersinho: ${pet.name}</h1>
-         <h1>A espécie do sersinho é a: ${pet.especie}</h1>
-         <h1>Idade: ${pet.age} anos humanos</h1>
+        <div class="noah">
+         <img src="${pet.foto}" alt="${pet.name}" class="richard">
+         <h1>Nome do Tutor:</h1> <h2 class="tut">${pet.tutor}</h2>
+         <h1>Nome do sersinho:</h1> <h2 class="tut">${pet.name}</h2>
+         <h1>A espécie do sersinho é a:</h1> <h2 class="tut">${pet.especie}</h2>
+         <h1>Idade:</h1><h2 class="tut">${pet.age}anos humanos</h2>
         </div>
         `
     });
