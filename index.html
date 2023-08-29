@@ -21,6 +21,9 @@
 </div>
     <div class="pai">
         <h2>Cadastro de Pets</h2>
+        <img src="https://piazzapisano.com/cdn/shop/products/kitty-welcome-cat-wall-decor-10_800x.jpg?v=1556632734" alt="">
+        <div class="inp">
+            
         <label for="tutor">Tutor:</label>
         <input type="text" id="tutor" name="tutor">
         <label for="name">Nome do pet:</label>
@@ -31,8 +34,12 @@
         <input type="text" id="foto" name="foto">
         <label for="calendario">Data de nascimento</label>
         <input type="date" id="calendario" name="calendario">
-        <button class="butao">Cadastrar</button>
+        <p id="masg" class="errou"></p>
+        <p id="msg" class="permitido"></p>
+        <button class="butao" onclick="cadastrar()">Cadastrar</button>
     </div>
+    </div>
+
     <h4>@2023 Clinica Veterinária. Todos os direitos reservados.</h4>
 </body>
 </html>

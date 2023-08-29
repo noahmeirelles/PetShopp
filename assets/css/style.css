@@ -8,12 +8,16 @@
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    display: flex;
+    
    
 }
 h4{
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: 1.5vh;
+    color: #fff;
     
 }
 .h5s{
@@ -37,4 +41,50 @@ body{
     border: none;
     padding: 2px;
     border-radius: 3px;
+    margin-right: 25vw;
+    margin-top: 2vh;
+    margin-bottom: 7vh;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    
+}
+input{
+    width: 30vw;
+    border: #1d7044 1px solid;
+    border-radius: 3px;
+    height: 5vh;
+    
+}
+label{
+    color: #1d7044;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+h2{
+    padding-top: 2vh;
+    font-size: xx-large;
+    margin-left: -4vw;
+    color: #1d7044;
+}
+h1{
+    color: #fff;
+}
+h5{
+    color: #fff;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+}
+.errou{
+    color: red;
+}
+.permitido{
+    color: rgb(0, 183, 0);
 }
