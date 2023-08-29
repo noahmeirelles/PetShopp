@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pai{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+   
+}
+h4{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h5s{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.topo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    background-color: #1d7044;
+}
