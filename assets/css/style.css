@@ -30,6 +30,7 @@ h4{
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-left: -0.8vw;
     
 }
 body{
@@ -72,11 +73,13 @@ h2{
     margin-left: -4vw;
     color: #1d7044;
 }
-h1{
+.h11{
     color: #fff;
 }
-h5{
+.h5{
     color: #fff;
+    background-color: #1d7044;
+    border: none;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1vh;
@@ -87,4 +90,7 @@ h5{
 }
 .permitido{
     color: rgb(0, 183, 0);
+}
+.hidd{
+    display: none;
 }

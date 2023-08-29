@@ -16,7 +16,8 @@ function cadastrar(){
     let calendario = document.getElementById("calendario").value;
     let show = new All(tutor, name, especie, foto, calendario);
     console.log(show)
-lista.add(show);
+listaC.add(show);
+renderização();
 }
 //
 class List{
@@ -33,7 +34,7 @@ class List{
         }
     }
     }
-    const lista = new List()
+    const listaC = new List()
 
     //
 
@@ -78,4 +79,23 @@ function verify() {
         console.log("Prft");
         return false;
     }
+}
+function renderização(){
+    const newPage = document.getElementById("exibir");
+    newPage.innerHtml = "";
+
+    let ray = listaC.lista
+
+    ray.forEach(shopp => {
+        const petshopp =`
+        <div>
+        <h1>Nome do Tutor: ${shopp.tutor}</h1>
+        <h1>Nome do sersinho: ${shopp.name}</h1>
+        <h1>A espécie do sersinho é a: ${shopp.especie}</h1>
+        <h1>A fotinha: ${shopp.foto}</h1>
+        <h1>Idade: ${shopp.calendario} anos humanos</h1>
+        </div>
+        `
+        newPage.innerHTML += petshopp
+    });
 }
