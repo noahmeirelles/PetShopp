@@ -31,3 +31,10 @@ h4{
 body{
     background-color: #1d7044;
 }
+.butao{
+    background-color: #1d7044;
+    color: white;
+    border: none;
+    padding: 2px;
+    border-radius: 3px;
+}
